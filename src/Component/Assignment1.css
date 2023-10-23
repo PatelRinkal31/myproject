@@ -1,0 +1,136 @@
+body{
+    background-color:lightskyblue;
+}
+.section-one{
+    text-align: left;
+}
+.list-data{
+    width: 100%;
+    background-color:beige;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+}
+.list-data li{
+    list-style: none;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.increment-decrement h2{
+    color: darkcyan;
+    font-size: 30px;
+}
+.increment-decrement{
+    background-color: rgb(192, 233, 235);
+    padding: 20px 0;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+}
+.incre-decre-btn button{
+    /* display: flex; */
+    grid-area: 20px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.reset-btn{
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Router Module Css */
+.react-router-test{
+    background-color: rgb(129, 129, 165);
+    padding: 50px 0;
+    margin-top: 50px;
+    border: 2px solid darkcyan;
+}
+.react-router-test h1{
+    color:rgb(229, 223, 54);
+}
+.nav-link ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.nav-link ul li a{
+    color: darkgreen;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-link ul li:hover{
+    background-color: chartreuse;
+    color: brown;
+}
+.nav-link ul li a .active{
+    color: azure;
+}
+/* Dynamic data change  */
+.user-deatails ul{
+    list-style: none;
+    background-color: aquamarine;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border: 2px solid darkcyan;
+}
+.user-deatails ul li a{
+    color: brown;
+    font-size: 20px;
+    padding: 5px 0;
+}
+/* aboutUs nested router */
+.child-route Link {
+    cursor: pointer;
+}
+.child-route a{
+    color: darkgreen;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.child-route a:hover{
+    color: brown;
+}
+
+/* React-life cycle */
+.react-life-cycle{
+    background-color: rgb(223, 204, 176);
+    padding: 20px 0;
+    margin-top: 50px;
+    border:2px solid darkcyan;
+}
+.life-cycle-contain{
+    text-align: left;
+    margin-left: 100px;
+}
+/* Hooks */
+.hooks-containe{
+    background-color: rgb(162, 177, 203);
+    padding: 20px 100px;
+    border: 2px solid darkcyan;
+    margin-top: 50px;
+    text-align: left;
+}
+.hooks-containe ul{
+    list-style: none;
+}

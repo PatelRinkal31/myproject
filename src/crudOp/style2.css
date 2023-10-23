@@ -1,0 +1,10 @@
+ul.reduxqa {
+    list-style: none;
+    text-align: left;
+    color: whitesmoke;
+    border: 1px solid darkolivegreen;
+    padding: 20px 20px;
+}
+ul.reduxqa h3{
+    color:brown;
+}
